@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "python starter"
+
+[packages]
+nitric = "==0.14.0"
+requests = "*"
+requests-cache = "*"
+beautifulsoup4 = "*"
+pandas = "*"
+datetime = "*"
+
+[scripts]
+dev = "watchmedo auto-restart -p '*.py' -R python index.py --"
+
+[dev-packages]
+watchdog = "*"

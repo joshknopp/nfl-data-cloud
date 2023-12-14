@@ -1,0 +1,4 @@
+name: nfl-data-cloud1
+handlers:
+- functions/*.py
+preview-features: []
